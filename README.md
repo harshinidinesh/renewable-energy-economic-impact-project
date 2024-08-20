@@ -32,6 +32,10 @@ Biomass energy appears to be becoming the next most popular renewable energy sou
 
 While the correlations between year and electric power, industrial, and residential sectors were strong at 0.914, 0.943, and 0.93 respectively, the residential sector had a really weak correlation to year at 0.074. Its regression plots showed likewise with the residential sector having a sinusoidal curve, suggesting no relationship, while all other sectors had an increasing linear relationship. This suggests that all other sectors are focusing on increasing their total renewable energy consumption over the years and leaving climate-damaging energy sources behind (oil, fossil fuels etc.) while residential sectors have years where they increase and decrease their renewable energy consumption levels (switching between renewable and non-renewable energy consumption).
 
+From our analysis of renewable energy consumption and production over time, we found that the top 5 states with the greatest increases in consumption since 1970 were Texas, California, Iowa, Florida, and Georgia, while the top 5 states with the greatest increases in production were Iowa, Texas, Nebraska, California, and Illinois. These trends can be attributed to various factors, including government policies, natural resource availability, and population size. 
+
+Additionally, our analysis found strong positive correlations between a state's renewable energy consumption and production with its real GDP, with correlation coefficients of 0.8333 and 0.5530, respectively. To gain further insights, we identified the top 5 states with the highest renewable energy consumption and production relative to their GDP. Surprisingly, the same states—Washington D.C., Delaware, New Jersey, Maryland, and Massachusetts—topped the list for both metrics. This may be because states with high renewable energy production often have correspondingly high consumption, as they tend to use much of the energy they produce.
+
 **Code structure**
 
 A series of python files which contain imports, functions, and comments. Could be easily run through Anaconda Spyder. 
