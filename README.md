@@ -92,10 +92,11 @@ https://www.ncei.noaa.gov/
   - Evaluated how to enhance the current code to improve predictions for future energy consumption by sector and future AFS accessibility.
 - Hang Hang(hang.h@husky.neu.edu)
     - Cleaned up and analyzed the data on the net generation for all sectors (renewable energy generation), the state's geographical (inland vs. coastal) locations, and the cost of charging electric vehicles
-    - Analyzed how state geographical locations correlate with energy production
     - Used Geopandas to plot a geospatial heatmap for visualizing energy production across states
-       - this challenged the initial hypothesis that coastal areas produce more renewable energy than inland states and R = -0.2434 (weak negative correlation)
-    - Developed a box plot to illustrate the spread of renewable energy generation data
+       - this challenged the initial hypothesis that coastal areas produce more renewable energy than inland states
+    - Analyzed how state geographical locations correlate with energy production
+       - weak negative correlation at r = -0.2434
+    - Developed a box plot to illustrate the distribution of renewable energy generation data across inland and coastal areas
     - Plotted a bar chart for comparing the baseline residential and workplace Levelized Cost of Charging (LCOC) for Battery Electric Vehicles (BEVs)
     - Performed a linear regression analysis on Vermont's wind energy generation over the years
     - Produced a residual plot to assess the linear regression model’s fit and accuracy
