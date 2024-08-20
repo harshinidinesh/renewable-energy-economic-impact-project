@@ -89,6 +89,8 @@ https://www.ncei.noaa.gov/
   - Calculated basic statistics and correlation, creating line charts, scatter plots, and bar plots to see which states/regions had the greatest changes in 
     energy prices, consumption, and production over time. This also proved hypothesis 2 true: there is a positive correlation between a state's GDP and its 
     energy consumption.
+  - Analyzed the change in renewable energy consumption and production for each state from 1970 onwards, identifying the states with the most significant changes.
+  - Determined the top states with the highest ratios of energy consumption and production relative to real GDP.
 - Hersh Joshi (jhersh003@gmail.com)
   - Analyzed the impact of population, climate, geographical location on energy consumption.
   - Compared EV charging costs with traditional fuel costs 
