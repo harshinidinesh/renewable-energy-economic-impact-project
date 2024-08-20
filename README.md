@@ -91,10 +91,15 @@ https://www.ncei.noaa.gov/
     increasing/decreasing/inconsistent rate) 
   - Evaluated how to enhance the current code to improve predictions for future energy consumption by sector and future AFS accessibility.
 - Hang Hang(hang.h@husky.neu.edu)
-  - Cleaned up data on median household income, geographical, and cost of charging electric vehicles (EV)
-  - Analyzed how state locations correlate with energy production to test intial hypotheses
-  - Analyzed the impact of economic incentives (i.e., tax, utility, infrastructure) on EV and clean energy adoption to validate hypothesis 4
-  - Used heat maps for energy production across states and multiple linear regression to assess the combined effects of economic factors on EV adoption.
+    - Cleaned up and analyzed the data on the net generation for all sectors (renewable energy generation), the state's geographical (inland vs. coastal) locations, and the cost of charging electric vehicles
+    - Analyzed how state geographical locations correlate with energy production
+    - Used Geopandas to plot a geospatial heatmap for visualizing energy production across states
+       - this challenged the initial hypothesis that coastal areas produce more renewable energy than inland states and R = -0.2434 (weak negative correlation)
+    - Developed a box plot to illustrate the spread of renewable energy generation data
+    - Plotted a bar chart for comparing the baseline residential and workplace Levelized Cost of Charging (LCOC) for Battery Electric Vehicles (BEVs)
+    - Performed a linear regression analysis on Vermont's wind energy generation over the years
+    - Produced a residual plot to assess the linear regression model’s fit and accuracy
+    - Conducted a KNN Classifier analysis to classify states based on their renewable energy generation profile such as "High hydroelectric", and "High Wind", and generated a confusion matrix to evaluate the model's performance
 - Ryan Jiang (jiang.ry@husky.neu.edu)
   - Cleaned up data on state renewable energy consumption, production, price, and GDP from 1970-2020
   - Calculated basic statistics and correlation, creating line charts, scatter plots, and bar plots to see which states/regions had the greatest changes in 
