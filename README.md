@@ -35,6 +35,14 @@ From our analysis of renewable energy consumption and production over time, we f
 
 Additionally, our analysis found strong positive correlations between a state's renewable energy consumption and production with its real GDP, with correlation coefficients of 0.8333 and 0.5530, respectively. To gain further insights, we identified the top 5 states with the highest renewable energy consumption and production relative to their GDP. Surprisingly, the same states—Washington D.C., Delaware, New Jersey, Maryland, and Massachusetts—topped the list for both metrics. This may be because states with high renewable energy production often have correspondingly high consumption, as they tend to use much of the energy they produce.
 
+Furthermore, the Pearson correlation coefficient between renewable energy percentage and state location was found to be r = −0.2434. This indicates a weak negative correlation, suggesting that inland states generally produce slightly less renewable energy than coastal states. However, this correlation is not strong enough to draw definitive conclusions about the impact of geographic location on energy production.
+
+Our geospatial map showed that Vermont (Inland) leads in renewable energy generation percentage, contributing 49% of its total energy from renewable sources. Following Vermont are South Dakota (Coastal): 38%, Maine (Coastal): 37%, Washington (Coastal): 35%, Idaho (Inland): 33%. This finding challenged our initial hypothesis that coastal states produce more renewable energy, suggesting that factors like natural resources, climate, policies, and infrastructures may have greater and more complex impact on energy production than location alone.
+
+The linear regression analysis of Vermont’s wind energy production (2001 to 2023) showed a relatively high RMSE of 72.36, indicating that the model struggles to precisely predict wind energy generation. The residual plot further emphasized this variability, highlighting discrepancies between the actual and predicted values. Also, our boxplots showed that inland states tend to have higher median and mean energy generation, along with greater variability (wider IQR), suggesting more diverse energy output likely due to different climates and other influencing factors. 
+
+Despite different optimal k-values in K-Nearest Neighbors (KNN) performance, the confusion matrix results were identical, likely due to the model's high accuracy score (0.9231) and the clear and distinct nature of the dataset's labels. This clarity in the data led to minimal misclassification, with only one state, categorized as "High hydroelectric," being incorrectly predicted as "High solar." The result indicates that the KNN classifier effectively distinguished between states' dominant renewable energy sources, making it relatively reliable for our prediction.
+
 **Code structure**
 
 A series of python files which contain imports, functions, and comments. Could be easily run through Anaconda Spyder. 
@@ -90,7 +98,7 @@ https://www.ncei.noaa.gov/
 - Ryan Jiang (jiang.ry@husky.neu.edu)
   - Cleaned up data on state renewable energy consumption, production, price, and GDP from 1970-2020
   - Calculated basic statistics and correlation, creating line charts, scatter plots, and bar plots to see which states/regions had the greatest changes in 
-    energy prices, consumption, and production over time. This also proved hypothesis 2 true: there is a positive correlation between a state's GDP and its 
+    energy prices, consumption, and production over time. This also proved our hypothesis true: there is a positive correlation between a state's GDP and its 
     energy consumption.
   - Analyzed the change in renewable energy consumption and production for each state from 1970 onwards, identifying the states with the most significant changes.
   - Determined the top states with the highest ratios of energy consumption and production relative to real GDP.
