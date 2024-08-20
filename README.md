@@ -7,14 +7,13 @@ These analyses can help policymakers, environmental researchers, data scientists
 
 **Techniques used**
 
-Loading and Merging Data
-Correlation analysis
-Visualizations
-- scatter plots, regression plots, boxplots 
-Geospatial heatmaps/Geopandas
-Bar charts
-Residual plot
-Confusion matrix with a KNN classifier
+- Loading and Merging Data
+- Correlation analysis
+- Visualizations (scatter plots, regression plots, boxplots)
+- Geospatial heatmaps/Geopandas
+- Bar charts
+- Residual plot
+- Confusion matrix with a KNN classifier
 
 **Insights**
 
