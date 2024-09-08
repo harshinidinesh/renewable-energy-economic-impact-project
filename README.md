@@ -94,9 +94,9 @@ https://www.ncei.noaa.gov/
     - Cleaned up and analyzed the data on the net generation for all sectors (renewable energy generation), the state's geographical (inland vs. coastal) locations, and the cost of charging electric vehicles
     - Used Geopandas to plot a geospatial heatmap for visualizing energy production across states
        - Hypothesis: Coastal states have a higher proportion of renewable energy production compared to landlocked states due to greater access to diverse renewable resources.
-       - Results: False. Top States contain both inland and coastal areas and no clear pattern of the mapping validates the hypothesis.
+       - Results: False. Top states contain both inland and coastal areas.
     - Analyzed how state geographical locations correlate with energy production
-       - Weak negative correlation at r = -0.2434 which also challenges the initial hypothesis noted above.
+       - Weak negative correlation at r = -0.2434 challenges the initial hypothesis noted above.
     - Developed a box plot to illustrate the distribution of renewable energy generation data across inland and coastal areas
     - Plotted a bar chart for comparing the baseline residential and workplace Levelized Cost of Charging (LCOC) for Battery Electric Vehicles (BEVs)
     - Performed a linear regression analysis on Vermont's wind energy generation over the years
