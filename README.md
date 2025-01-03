@@ -1,4 +1,5 @@
 # Renewable Energy's Economic Impact in the U.S. 
+![MasterHead](https://images.unsplash.com/photo-1472313420546-a46e561861d8?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 **Introduction & Purpose**
 
 In recent years, the U.S. has seen a surge in the deployment of renewable energy sources, driven both by environmental concerns and economic incentives. While various news outlets (i.e. Bloomberg, Wall Street Journal) and databases (e.g. Census Bureau, Energy Information Administration) provide data on the current state of renewable energy and its economic implications, a deeper analysis is needed to understand the economic impact of different renewable energy sources across U.S. states and sectors. Our project aim is to bridge the gap, converting raw data into the prime data for analysis, examining the relationship between renewable energy production, consumption, and economic indicators such as GDP. 
